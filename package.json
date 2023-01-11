@@ -1,6 +1,6 @@
 {
   "name": "@steelskysoftware/facade-toolbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "steelskysoftware",
   "license": "ISC",
   "description": "Collection of various JavaScript helper functions.",
@@ -29,6 +29,6 @@
     "build": "facade build -e ./src/index.js -n toolbox -o dist -w -m -b -d -f esm -l info"
   },
   "devDependencies": {
-    "@steelskysoftware/facade-builder": "workspace:*"
+    "@steelskysoftware/facade-builder": "^1.0.0"
   }
 }
