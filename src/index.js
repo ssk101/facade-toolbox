@@ -20,6 +20,7 @@ export { imgFromBlob } from './image/img-from-blob.js'
 export { imgFromBuffer } from './image/img-from-buffer.js'
 export { imgToDataUri } from './image/img-to-data-uri.js'
 export { resizeWithAspectRatio } from './image/resize-with-aspect-ratio.js'
+export { bytesToBase64 } from './image/bytes-to-b64.js'
 
 export { randomItems } from './iterable/random-items.js'
 
