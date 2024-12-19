@@ -1,7 +1,7 @@
 {
-  "name": "@steelskysoftware/facade-toolbox",
+  "name": "@ssk101/facade-toolbox",
   "version": "1.0.1",
-  "author": "steelskysoftware",
+  "author": "ssk101",
   "license": "ISC",
   "description": "Collection of various JavaScript helper functions.",
   "keywords": [
@@ -12,9 +12,9 @@
     "javascript"
   ],
   "bugs": {
-    "url": "https://github.com/steelskysoftware/facade-toolbox/issues"
+    "url": "https://github.com/ssk101/facade-toolbox/issues"
   },
-  "homepage": "https://github.com/steelskysoftware/facade-toolbox#readme",
+  "homepage": "https://github.com/ssk101/facade-toolbox#readme",
   "main": "dist/toolbox.js",
   "module": "dist/toolbox.js",
   "type": "module",
@@ -29,6 +29,6 @@
     "build": "facade build -e ./src/index.js -n toolbox -o dist -w -m -b -d -f esm -l info"
   },
   "devDependencies": {
-    "@steelskysoftware/facade-builder": "^1.0.0"
+    "@ssk101/facade-builder": "^1.0.0"
   }
 }
