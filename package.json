@@ -29,6 +29,6 @@
     "build": "facade build -e ./src/index.js -n toolbox -o dist -w -m -b -d -f esm -l info"
   },
   "devDependencies": {
-    "@ssk101/facade-builder": "^1.0.0"
+    "@ssk101/facade-builder": "https://github.com/ssk101/facade-builder.git"
   }
 }
